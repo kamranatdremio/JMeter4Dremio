@@ -4,12 +4,12 @@ Apache JMeter is an Apache project that can be used as a load testing tool for a
 
 This document describes how to configure, run and analyze the results of a JMeter test plan for Dremio.
 
-### Download Dremio’s JDBC Driver:
-Download the latest jdbc driver: https://www.dremio.com/drivers/jdbc
 
+### Download Dremio’s JDBC Driver
+Download the latest jdbc driver from Dremio's website: https://www.dremio.com/drivers/jdbc
 
-### Download & Install JMeter:
-_JMeter requires Java 8 or higher_
+### Download & Install JMeter
+> _JMeter requires Java 8 or higher_
 
 Download the binaries: https://jmeter.apache.org/download_jmeter.cgi
 1. Extract the binaries to a directory
@@ -24,6 +24,7 @@ Download the binaries: https://jmeter.apache.org/download_jmeter.cgi
       - `password`= <Dremio_user password>
       - `schema`= optional - you can list it here or fully qualify the dataset name in the SQL
 
+_(jdbc:dremio:direct=44.123.12.103:31010;user=admin;password=admin123)_
 
 
 
